@@ -1,0 +1,3 @@
+#define DRCOM_FLASH_USERNAME ((char *)0x40002000)
+#define DRCOM_FLASH_PASSWORD ((char *)(0x40002000 + 32))
+#define DRCOM_FLASH_MAC ((char *)(0x40002000 + 48))
